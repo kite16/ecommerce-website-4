@@ -78,7 +78,7 @@ li {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: var(--grey-alt);
+  background-color: #f2fff0;
   overflow: hidden;
 }
 
@@ -245,7 +245,7 @@ li {
 }
 
 .hero-content h2 {
-  color: #b888ff;
+  color: #ff5100;
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -348,7 +348,7 @@ li {
 
 .advert-box {
   position: relative;
-  color: #fff;
+  color: #4c4646;
   height: 27rem;
   border-radius: 1rem;
   padding: 1.6rem;
@@ -356,17 +356,23 @@ li {
   z-index: 1;
 }
 
+.advert-box:hover{
+  border: 3px #ffffff;
+  background: black;
+  color: white;
+}
+
 .advert-box img {
   position: absolute;
   bottom: 0%;
-  left: -20%;
+  left: -35%;
   height: 100%;
   width: 35rem;
   z-index: -1;
 }
 
 .advert-box:nth-child(1) {
-  background-color: #f5c5d1;
+  background-color: #fcc175;
 }
 
 .advert-box:nth-child(2) {
@@ -408,6 +414,13 @@ li {
   text-transform: capitalize;
 }
 
+/* circle */
+#circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 1000px;
+  height: 1000px;
+}
 /* Featured Products */
 
 .title {
@@ -428,7 +441,7 @@ li {
   left: 50%;
   bottom: -20%;
   transform: translate(-50%, -50%);
-  background-color: var(--pink);
+  background-color: var(--black);
   width: 50%;
   height: 0.4rem;
   z-index: 1;
